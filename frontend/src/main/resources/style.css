@@ -1,0 +1,80 @@
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #0f172a;
+}
+
+/* General text */
+.label {
+    -fx-text-fill: #e2e8f0;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10 18;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #3b82f6;
+}
+
+/* Text fields */
+.text-field {
+    -fx-background-color: #1e293b;
+    -fx-text-fill: #f8fafc;
+    -fx-prompt-text-fill: #94a3b8;
+    -fx-border-color: #475569;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 10;
+}
+
+.text-field:focused {
+    -fx-border-color: #3b82f6;
+}
+
+/* Dropdowns */
+.combo-box {
+    -fx-background-color: #1e293b;
+    -fx-border-color: #475569;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #1e293b;
+    -fx-text-fill: #f8fafc;
+    -fx-padding: 9;
+}
+
+.combo-box:focused {
+    -fx-border-color: #3b82f6;
+}
+
+/* Dropdown popup */
+.combo-box-popup .list-view {
+    -fx-background-color: #1e293b;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #2563eb;
+}
+
+/* Scroll areas */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: #0f172a;
+}
+
+/* Admin/stat cards */
+.grid-pane {
+    -fx-background-color: transparent;
+}
